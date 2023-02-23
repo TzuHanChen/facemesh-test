@@ -16,7 +16,8 @@ scene.add(faceMesh);
 const start = async() => {
 	await mindarThree.start();
 	renderer.setAnimationLoop(() => {
-		renderer.render(scene, camera);
+		// renderer.render(scene, camera);
+		renderer.render(scene);
 	});
 }
 start();
