@@ -10,4 +10,6 @@ GitHub Pages：
 
 [change-background-in-video](change-background-in-video.html)
 
-[change-background-in-image](change-background-in-image.html)
+Current Progress：
+
+Facemesh is in front of segmentation, but they are not exactly overlapped.
