@@ -6,36 +6,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<style>
-   		body {
-			margin: 0;
-   		}
-   		#container {
-			width: 100vw;
-			height: 100vh;
-			position: relative;
-			overflow: hidden;
-		}
-   		#webcam {
-   			display: none;
-   		}
-   		#canvas {
-   			background-image: url("./images/sea.jpg");
-		    background-repeat: no-repeat;
-        	background-size: cover;
-        	margin-bottom: 10px;
-    	}
-		#facemesh {
-			position: absolute;
-			z-index: 3;
-		}
-	</style>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div id="container">
-        <video id="webcam" autoplay width="640" height="500"></video>
-        <canvas id="canvas"></canvas>
+		<div class="segmentation">
+			<video id="webcam" autoplay width="640" height="500"></video>
+        	<canvas id="canvas"></canvas>
+		</div>
 		<div id="facemesh"></div>
     </div>
 </body>

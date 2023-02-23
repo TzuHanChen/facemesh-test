@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#container {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+#webcam {
+	display: none;
+}
+#canvas {
+	background-image: url("./images/sea.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#facemesh {
+	position: absolute;
+	z-index: 3;
+}
