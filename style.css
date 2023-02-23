@@ -12,7 +12,7 @@ body {
 	display: none;
 }
 #canvas {
-	background-image: url("./images/sea.jpg");
+	background-image: url("./sea.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }

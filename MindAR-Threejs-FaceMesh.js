@@ -9,7 +9,7 @@ const light = new THREE.HemisphereLight( 0xffffff, 0xbbbbff, 1 );
 scene.add(light);
 const faceMesh = mindarThree.addFaceMesh();
 //  載入貼圖
-const texture = new THREE.TextureLoader().load('./images/canonical_face_model_uv_visualization.png');
+const texture = new THREE.TextureLoader().load('./canonical_face_model_uv_visualization.png');
 faceMesh.material.map = texture;
 faceMesh.material.transparent = true;
 faceMesh.material.needsUpdate = true;
