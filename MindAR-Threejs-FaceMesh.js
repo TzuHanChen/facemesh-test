@@ -2,8 +2,8 @@ import * as THREE from 'three';
 import { MindARThree } from 'mindar-face-three';
 
 const mindarThree = new MindARThree({
-	// container: document.querySelector("#container")
-	container: document.getElementById("canvas")
+	container: document.querySelector("#container")
+	// container: document.getElementById("canvas")
 });
 const {renderer, scene, camera} = mindarThree;
 const light = new THREE.HemisphereLight( 0xffffff, 0xbbbbff, 1 );
