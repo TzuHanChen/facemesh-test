@@ -3,10 +3,12 @@ body {
 	padding: 0;
 }
 #container {
-	/* width: 100vw;
-	height: 100vh; */
 	position: relative;
 	overflow: hidden;
+}
+#segmentation {
+	width: 100vw;
+	height: 100vh;
 }
 #webcam {
 	width: 100vw;
@@ -19,6 +21,10 @@ body {
 	background-size: cover;
 }
 #facemesh {
+	width: 100vw;
+	height: 100vh;
 	position: absolute;
+	top: 0;
+	left: 0;
 	z-index: 3;
 }
