@@ -6,10 +6,6 @@ body {
 	position: relative;
 	overflow: hidden;
 }
-/* #segmentation {
-	width: 100vw;
-	height: 100vh;
-} */
 #webcam {
 	width: 100vw;
 	height: 100vh;
