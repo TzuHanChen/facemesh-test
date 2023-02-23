@@ -25,6 +25,10 @@
         	background-size: cover;
         	margin-bottom: 10px;
     	}
+		#facemesh {
+			position: absolute;
+			z-index: 3;
+		}
 	</style>
 </head>
 
@@ -32,6 +36,7 @@
     <div id="container">
         <video id="webcam" autoplay width="640" height="500"></video>
         <canvas id="canvas"></canvas>
+		<div id="facemesh"></div>
     </div>
 </body>
 
