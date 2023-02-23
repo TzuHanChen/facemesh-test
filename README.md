@@ -7,6 +7,6 @@
 * 去背 (segmentation)：[change-background-using-body-segmentation](https://github.com/selvam85/change-background-using-body-segmentation)
 * 貼圖 (facemesh)：[ThreeJS FaceMesh](https://hiukim.github.io/mind-ar-js-doc/more-examples/threejs-face-facemesh)
 
-網頁展示：[去背 + 貼圖](https://tzuhanchen.github.io/facemesh_test)
+網頁展示：[去背 + 貼圖](https://tzuhanchen.github.io/facemesh-test)
 
 目前進度：去背和貼圖可以重疊顯示，不過還無法完全對齊。
