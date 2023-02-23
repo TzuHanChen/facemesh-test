@@ -12,4 +12,6 @@ GitHub Pages：
 
 Current Progress：
 
-Facemesh is in front of segmentation, but they are not exactly overlapped.
+Facemesh is in front of segmentation as wanted.
+
+But they are not exactly overlapped yet.
