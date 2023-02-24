@@ -1,0 +1,10 @@
+#webcam {
+	width: 100vw;
+	height: 100vh;
+	display: none;
+}
+#canvas {
+	background-image: url("./sea.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
