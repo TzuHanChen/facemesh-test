@@ -8,8 +8,12 @@
 * 貼圖 (facemesh)：[ThreeJS FaceMesh](https://hiukim.github.io/mind-ar-js-doc/more-examples/threejs-face-facemesh)
 
 網頁展示：
+
 * [去背 + 貼圖](https://tzuhanchen.github.io/facemesh-test/segmentation-facemesh.html)
 * [只有去背](https://tzuhanchen.github.io/facemesh-test/segmentation.html)
 * [只有貼圖](https://tzuhanchen.github.io/facemesh-test/facemesh.html)
 
-目前進度：去背和貼圖可以重疊顯示，不過還無法完全對齊。
+目前進度：
+
+* 去背和貼圖可以重疊顯示，不過還無法完全對齊。
+* 在我的手機上觀察運作速度，只有貼圖的網頁相當順暢，只有去背的網頁超級緩慢。
